@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+ .logo{
+    width: 90px;
+    height: 70px;
+    margin-left: 90px;
+}  
+ nav{
+    background: #36455c;
+    height: 80px;
+    width: 100%;
+ }
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+ }
+ nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color: green;
+ }
+
+ h1{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #36455c;
+}
+
+.courses{
+    
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 40rem;
+    
+    
+}
+.courses__container{
+    display: grid;
+    margin-left: 130px;
+    margin-right: 10px;
+    grid-template-columns: repeat(6, 0fr);
+    gap: 1rem;
+}
+
+.course{
+    
+    background: var(--color-bg1);
+    border-radius: 1.5rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.course:hover{
+       background: rgb(27, 249, 231);
+    border-color: var(--color-primary);
+}
+.course__image img{
+    width: 25rem;
+    height: 14rem;
+    border-radius: 1.2rem;
+}
+.course__info{
+    font-family: 'Nunito', sans-serif;
+    padding: 1rem;
+}
+
+.course__info p{
+    font-family: 'Nunito', sans-serif;
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+} 
